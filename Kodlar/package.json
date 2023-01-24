@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "nodemailer": "^6.8.0",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "nodemon": "^2.0.20"
+  },
+  "name": "bsgodev",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./bsgodev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}

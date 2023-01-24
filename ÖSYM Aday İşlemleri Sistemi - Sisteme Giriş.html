@@ -1,0 +1,340 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0035)https://ais.osym.gov.tr/yetki/giris -->
+<html class="k-webkit k-webkit108"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width,initial-scale=0.3">
+
+    <title>ÖSYM Aday İşlemleri Sistemi - Sisteme Giriş</title>
+    <link href="https://ais.osym.gov.tr/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+    <link rel="stylesheet" href="./ÖSYM Aday İşlemleri Sistemi - Sisteme Giriş_files/cssyui">
+        <link href="./ÖSYM Aday İşlemleri Sistemi - Sisteme Giriş_files/kendo.common.min.css" rel="stylesheet" type="text/css">
+        <link href="./ÖSYM Aday İşlemleri Sistemi - Sisteme Giriş_files/kendo.default.min.css" rel="stylesheet" type="text/css">
+        <script src="./ÖSYM Aday İşlemleri Sistemi - Sisteme Giriş_files/jquery-1.11.0.min.js.indir"></script>
+        <script src="./ÖSYM Aday İşlemleri Sistemi - Sisteme Giriş_files/kendo.web.min.js.indir"></script>
+        <script src="./ÖSYM Aday İşlemleri Sistemi - Sisteme Giriş_files/kendo.aspnetmvc.min.js.indir"></script>
+
+    <script>
+        if (typeof jQuery == "undefined") {
+            var url = '/Content/bundles/jquery?v=dNjz6cxHJD4kmqy1OSA4O4PykBbxwlQywn88RtTGE1Y1';
+            document.write(decodeURIComponent('%3Cscript src="' + url + '" %3E%3C/script%3E'));
+        }
+
+        if (typeof kendo == "undefined") {
+            var url1 = '/Content/bundles/kendo?v=48keeex-886NM5f-ySzkPXVvQCMHKHX2QrOq77Zt56Y1';
+            document.write(decodeURIComponent('%3Cscript src="' + url1 + '" %3E%3C/script%3E'));
+            var url2 = '/Content/3rdParty/KendoUI/styles/csskendo?v=0TfdGIzfGfQtiMA_vhz9bjYICYqBw_482eDgu45i5RM1';
+            document.write(decodeURIComponent('%3Clink rel="stylesheet" href="' + url2 + '" /%3E'));
+        }
+    </script>
+
+    <link rel="stylesheet" href="./ÖSYM Aday İşlemleri Sistemi - Sisteme Giriş_files/css">
+    <link rel="stylesheet" href="./ÖSYM Aday İşlemleri Sistemi - Sisteme Giriş_files/cssAis">
+    <link rel="stylesheet" href="./ÖSYM Aday İşlemleri Sistemi - Sisteme Giriş_files/cssPrint" media="print">
+
+    <script src="./ÖSYM Aday İşlemleri Sistemi - Sisteme Giriş_files/culture" type="text/javascript"></script>
+    <script src="./ÖSYM Aday İşlemleri Sistemi - Sisteme Giriş_files/knockout" type="text/javascript"></script>
+    <script src="./ÖSYM Aday İşlemleri Sistemi - Sisteme Giriş_files/app" type="text/javascript"></script>
+    <script src="./ÖSYM Aday İşlemleri Sistemi - Sisteme Giriş_files/validators"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            if ($('html').hasClass('ie7') || $('html').hasClass('ie6')) {
+                var a = $('#wrongBrowser').html();
+                document.write('');
+                document.write(a);
+            }
+            $("#imgLoading").css("top", $(window).height() / 2 - 50);
+            $("#imgLoading").css("left", $(window).width() / 2);
+        });
+
+        function are_cookies_enabled() {
+            var cookieEnabled = (navigator.cookieEnabled) ? true : false;
+
+            if (typeof navigator.cookieEnabled == "undefined" && !cookieEnabled) {
+                document.cookie = "testcookie";
+                cookieEnabled = (document.cookie.indexOf("testcookie") != -1) ? true : false;
+            }
+            return (cookieEnabled);
+        }
+        $(function () {
+            if (are_cookies_enabled() == false) {
+                $('#cookiesDisabled').kendoWindow({
+                    title: "Uyarı",
+                    height: "200px",
+                    width: "500px",
+                    resizable: false,
+                    modal: true,
+                    draggable: false
+                }).data("kendoWindow").center().open();
+            }
+        });
+    </script>
+
+
+        <link rel="apple-touch-icon" href="https://ais.osym.gov.tr/Content/Images/logo_ais_mobil.png">
+        <link rel="android-touch-icon" href="https://ais.osym.gov.tr/Content/Images/logo_ais_mobil.png">
+        <meta name="apple-itunes-app" content="app-id=1451805015">
+        <meta name="google-play-app" content="app-id=tr.gov.osym.ais.android">
+        <link rel="stylesheet" type="text/css" href="./ÖSYM Aday İşlemleri Sistemi - Sisteme Giriş_files/jquery.smartbanner.css">
+        <script type="text/javascript" src="./ÖSYM Aday İşlemleri Sistemi - Sisteme Giriş_files/jquery.smartbanner.js.indir"></script>
+
+    
+<style>@font-face {
+              font-family: 'Open Sans Regular';
+              font-style: normal;
+              font-weight: 400;
+              src: url('chrome-extension://gkkdmjjodidppndkbkhhknakbeflbomf/fonts/open_sans/open-sans-v18-latin-regular.woff');
+          }</style><style>@font-face {
+              font-family: 'Open Sans Bold';
+              font-style: normal;
+              font-weight: 800;
+              src: url('chrome-extension://gkkdmjjodidppndkbkhhknakbeflbomf/fonts/open_sans/open-sans-v18-latin-800.woff');
+          }</style></head>
+<body style="">
+
+
+        <script type="text/javascript">
+            $.smartbanner({
+                daysHidden: 1,
+                daysReminder: 1,
+                appStoreLanguage: 'tr',
+                title: 'Aday İşlemleri Sistemi',
+                author: 'ÖSYM',
+                button: 'İndir',
+                price: 'Ücretsiz',
+                inAppStore: 'App Store',
+                inGooglePlay: 'Google Play',
+                icon: null,
+                iconGloss: null,
+                url: null,
+                scale: 'auto',
+                speedIn: 300,
+                speedOut: 400,
+                force: null,
+                hideOnInstall: true,
+                layer: false,
+                iOSUniversalApp: true,
+                appendToSelector: 'body',
+                onInstall: function () { },
+                onClose: function () { }
+            });
+        </script>
+
+    <div id="wrongBrowser" style="display: none;">
+        <h1>Desteklenmeyen Tarayıcı</h1>
+        <p>Bu uygulamayı sadece Chrome veya Internet Explorer 9 ve üstü tarayıcılar ile kullanabilirsiniz</p>
+        <p>Aşağıdaki linklerden ilgili tarayıcıları indirebilirsiniz.</p>
+        <p>Chrome <a href="http://go.microsoft.com/fwlink/?LinkID=166937%E2%80%8E" target="_blank">kurun</a>‎</p>
+        <p>Internet Explorer 10 <a href="http://go.microsoft.com/fwlink/?LinkID=166930" target="_blank">kurun</a>‎</p>
+    </div>
+    <div style="display: none" id="cookiesDisabled">
+        Aday İşlemleri Sistemini kullanabilmek için tarayıcınızda çerezlere izin vermelisiniz.
+    </div>
+    <div id="loading">
+        <div style="position: fixed; top: 406px; left: 960px;" id="imgLoading">
+            <img id="imgLoading1" alt="Yükleniyor. Lütfen bekleyiniz." src="./ÖSYM Aday İşlemleri Sistemi - Sisteme Giriş_files/image-loading.gif" style="position: relative; left: 20px">
+            <span style="position: relative; top: -25px; left: -70px; color: orange; font-size: medium">Lütfen Bekleyiniz</span>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header">
+            <div class="appLogo" onclick="window.open(&#39;http://osym.gov.tr&#39;,&#39;_blank&#39;)" title="ÖSYM Anasayfaya Git"></div>
+
+            <ul class="menu-icon-nav" style="position: absolute; left: -15px; top: 8px;">
+                                    <li><a class="menu-sinavtakvimi" href="https://ais.osym.gov.tr/IslemTakvimi">ÖSYM İşlem Takvimi</a></li>
+                        <li><a class="menu-yuedinme" href="https://ais.osym.gov.tr/YabanciUyruk/YabanciUyrukNoEdinme">YU No Talep Formu</a></li>
+            </ul>
+            
+
+<script type="text/javascript">
+
+
+</script>
+
+<div class="login-view">
+    
+    <input name="__RequestVerificationToken" type="hidden" value="1WwpRqA8b0rTpm208HaNT1tYCw2OF4Zq2oZ3J9PeLVVjmUyEdEaZc04DLgAuU5AdQeyXQRsTz6T0CexYBop0ubUw5OA1">
+
+                <a href="https://ais.osym.gov.tr/Yetki/EDevletLogin">
+                    <img id="edevletgirisbuton" src="./ÖSYM Aday İşlemleri Sistemi - Sisteme Giriş_files/e-devlet-girisyap-button.png" alt="E-Devlet Girişi" width="150" height="45">
+                </a>
+                <a onclick="$(&#39;#edevletBilgilendirmeWindow&#39;).data(&#39;kendoWindow&#39;).center().open();">
+                    <img id="edevletgirisbuton" src="./ÖSYM Aday İşlemleri Sistemi - Sisteme Giriş_files/e-devlet-kayitol-button.png" alt="E-Devlet ile Aday Kayıt" width="150" height="45">
+                </a>
+</div>
+
+<script>
+	jQuery(function(){jQuery("#edevletBilgilendirmeWindow").kendoWindow({"animation":false,"modal":true,"iframe":false,"draggable":false,"scrollable":false,"pinned":false,"title":"e-DEVLET İLE KAYIT İŞLEMİ","resizable":false,"content":null,"width":800,"height":180,"actions":["Close"]});});
+</script>
+        </div>
+            <div class="main-content main-content-tile">
+                
+
+
+<style type="text/css">
+    #div-form {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 30%;
+        transform: translate(-50%, -50%);
+        font-size: 12pt;
+    }
+
+    @media only screen and (max-device-width: 1000px) {
+        #div-form {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 15pt;
+        }
+    }
+
+    #DogrulamaKodu {
+        outline: none !important;
+        border-color: indianred;
+        box-shadow: 0 0 10px indianred;
+        font-weight: bold;
+    }
+</style>
+
+
+<script type="text/javascript">
+    var Razor = {
+        CaptchaPartialUrl: 'System.Web.Mvc.UrlHelper'
+    };
+
+    $(document).ready(function () {
+        $(".numeric").each(function (index) {
+            $(this).Numeric();
+        });
+        $("#btnSubmitLogin").removeAttr('disabled');
+
+        var kendoValidator = $("#div-form").kendoValidator().data("kendoValidator");
+
+        $("#form").submit(function () {
+            $("#btnSubmitLogin").attr('disabled', 'disabled');
+
+            if (!kendoValidator.validate()) {
+                $("#btnSubmitLogin").removeAttr('disabled');
+                return false;
+            }
+
+            return true;
+        });
+    });
+</script>
+
+
+
+<div id="divLoginViewModel">
+            <div id="div-form" class="form-con medium-size-label big-size-form biggerfont x-large-width centered bg-saydam" data-role="validator">
+<form action="https://ais.osym.gov.tr/Yetki/Giris" id="form" method="post"><input name="__RequestVerificationToken" type="hidden" value="bpvaA5vcvFkvXP30IaRySan7fFjNLhm4tvO2CPZb31MeV1y_8xVzPsSJgz4r4J9BM41ug-FD9uOPS4G8_tTKLGLKYHk1">                    <fieldset>
+                        <legend style="text-align:center;padding-top:10px;padding-bottom:10px;height:20px;"></legend>
+                        <input type="hidden" id="Token" name="Token" value="D1ntLYSSbIfB7Gab9smTueKkNKadVWBeCnFw0T+JoyK72iNcLVEgb5OhpDQ6uCf1zLCSOA==">
+
+
+                        <div>
+                            <label for="TcKimlikNo" style="margin-top: 7px !important;">T.C. Kimlik / YU No.</label>
+                            <input maxlength="11" class="numeric k-valid" data-val="true" data-val-required="T.C. Kimlik / YU Numarası girilmesi zorunludur." data-val-tckimlikno="Geçerli bir T.C. Kimlik / YU Numarası giriniz." id="TcKimlikNo" name="TcKimlikNo" style="width: 200px !important;" value="">
+                            <span class="field-validation-valid" data-valmsg-for="TcKimlikNo" data-valmsg-replace="true" style="display: none;"></span>
+                        </div>
+                        <div>
+                            <label for="Sifre" style="margin-top: 7px !important;">Şifre</label>
+                            <input maxlength="16" data-val="true" data-val-length="Şifre alanı en az 6 en fazla 16 karakter uzunluğunda olmalıdır." data-val-length-max="16" data-val-length-min="6" data-val-required="Şifre girilmesi zorunludur." id="Sifre" name="Sifre" style="width: 200px !important;" type="password" class="k-valid">
+                            <span class="field-validation-valid" data-valmsg-for="Sifre" data-valmsg-replace="true" style="display: none;"></span>
+                        </div>
+
+
+                        <div class="submit-line">
+                            <input class="button indented" type="submit" id="btnSubmitLogin" value="GİRİŞ YAP">
+                        </div>
+
+                        <div class="indented" style="text-align: left; margin-top: 20px;">
+                                <a href="https://ais.osym.gov.tr/YuYardim/YuNoHakkinda">YU No Yardım</a><span> |</span>
+                            <a href="https://ais.osym.gov.tr/Yetki/SifremiUnuttum">Şifremi Unuttum</a><span> |</span>
+                        </div>
+                    </fieldset>
+</form>            </div>
+
+</div>
+
+
+
+
+            </div>
+        
+
+            <div class="footer-mobile-app">
+                <h3>e-Devlet Şifresiyle ÖSYM AİS'e Kayıt İşlemi Açıldı!</h3>
+                <p style="text-align:justify;">
+                    İçişleri Bakanlığı Nüfus ve Vatandaşlık İşleri Genel Müdürlüğü Nüfus Müdürlüklerinden Türkiye Cumhuriyeti Kimlik Kartı edinmiş olan adaylar, e-Devlet şifreleriyle <b>ÖSYM Aday İşlemleri Sistemine</b> kayıt olabileceklerdir.
+                </p>
+                <p style="text-align:justify;">
+                    <b>ÖSYM Aday İşlemleri Sistemini</b> (https://ais.osym.gov.tr) ziyaret eden adaylar burada yer alan <b>e-Devlet İle Kayıt Ol</b> butonu vasıtasıyla
+                    ÖSYM Aday İşlemleri Sistemine kaydolacaklardır.
+                </p>
+                <p style="text-align:justify;">
+                    e-Devlet şifresiyle <b>ÖSYM AİS'e</b> kayıt olan adaylar, bir başvuru merkezine gitmeksizin <b>ÖSYM Aday İşlemleri Sistemi</b> üzerinden sunulan tüm işlemleri yapabileceklerdir.
+                </p>
+            </div>
+            <div class="footer-mobile-app">
+                <div class="footer-mobile-info">
+                    <h3>ÖSYM Aday İşlemleri Mobil Uygulaması Yayında!</h3>
+                    <p>Adaylarımıza yönelik geliştirilen yeni ÖSYM Mobil uygulaması ile Aday İşlemleri Sistemindeki https://ais.osym.gov.tr hizmetlere mobil cihazlardan daha hızlı ve güvenli bir şekilde erişim sağlanmaktadır.</p>
+                </div>
+                <div class="footer-mobile-buttons">
+                    <a href="https://apps.apple.com/us/app/%C3%B6sym-aday-i-%C5%9Flemleri-sistemi/id1451805015" target="_blank"><img src="./ÖSYM Aday İşlemleri Sistemi - Sisteme Giriş_files/app_download_apple.png" alt="App Store ÖSYM AİS Uygulaması" width="197" height="62"></a>
+                    <a href="https://play.google.com/store/apps/details?id=tr.gov.osym.ais.android" target="_blank"><img src="./ÖSYM Aday İşlemleri Sistemi - Sisteme Giriş_files/app_download_google.png" alt="Google Play ÖSYM AİS Uygulaması" width="197" height="62"></a>
+                </div>
+            </div>
+
+
+
+
+        <div class="footer" id="footer" style="position: relative;">
+            <img src="./ÖSYM Aday İşlemleri Sistemi - Sisteme Giriş_files/icon-callcenter.png" style="position: absolute; left: 10px; top: 5px" alt="4446796 ÖSYM Çağrı Merkezi">
+            T.C. Ölçme, Seçme ve Yerleştirme Merkezi © 2013 - Her Hakkı Saklıdır.
+
+        </div>
+        <div><span style="color:transparent;display:inline-block;">KK02</span></div>
+    </div>
+
+
+<div class="k-widget k-window" style="padding-top: 29px; min-width: 90px; min-height: 50px; width: 800px; height: 180px; display: none; top: 15px; left: 285px;"><div class="k-window-titlebar k-header" style="margin-top: -29px;">&nbsp;<span class="k-window-title" id="edevletBilgilendirmeWindow_wnd_title">e-DEVLET İLE KAYIT İŞLEMİ</span><div class="k-window-actions"><a role="button" href="https://ais.osym.gov.tr/yetki/giris#" class="k-window-action k-link"><span role="presentation" class="k-icon k-i-close">Close</span></a></div></div><div id="edevletBilgilendirmeWindow" style="overflow:hidden;" data-role="window" class="k-window-content k-content" tabindex="0" role="dialog" aria-labelledby="edevletBilgilendirmeWindow_wnd_title">
+
+                    <div id="root">
+                        <div>
+                            <div style="margin-top :15px">
+
+                                <p style="font-weight:bold;font-size: 16px;margin:10px 0 0 10px">Bu ekrandan Aday İşlemleri Sistemi’ne e-Devlet üzerinden kayıt işleminizi gerçekleştirebilirsiniz.</p><br><br>
+                            </div>
+                        </div>
+                        <div>
+
+                            <div style="width:47%; float:left; text-align:center;margin-left:10px" class="edevlet-giris-bilgilendirme">
+                                <p style="font-weight:bold;font-size: 16px; margin-top:5px">  AİS’e <span style="color:red"> daha önce kayıt olduysanız </span> “e-Devlet ile Giriş” için tıklayınız.</p>
+                                <div>
+                                    <a href="https://ais.osym.gov.tr/Yetki/EDevletLogin">
+                                        <img id="edevletgirisbuton" src="./ÖSYM Aday İşlemleri Sistemi - Sisteme Giriş_files/e-devlet-girisyap-button.png" alt="E-Devlet Girişi" width="150" height="45">
+                                    </a>
+                                </div>
+
+                            </div>
+
+                            <div style="width:47%; float:right; text-align:center;margin-right:10px" class="edevlet-kayit-bilgilendirme">
+
+                                <p style="font-weight:bold;font-size: 16px;margin-top:5px">e-Devlet ile Kayıt işlemine devam etmek için tıklayınız.</p>
+                                <div style="text-align:center">
+
+                                        <a href="https://ais.osym.gov.tr/Yetki/EDevletLogin?giristuru=edevletileadaykayit">
+                                            <img id="edevletgirisbuton" src="./ÖSYM Aday İşlemleri Sistemi - Sisteme Giriş_files/e-devlet-kayitol-button.png" alt="E-Devlet ile Aday Kayıt" width="150" height="45">
+                                        </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div></div></body></html>

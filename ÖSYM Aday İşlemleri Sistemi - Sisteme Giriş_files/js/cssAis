@@ -1,0 +1,440 @@
+/* Minification failed. Returning unminified contents.
+(2,5): run-time error CSS1062: Expected semicolon or closing curly-brace, found '-'
+(428,24): run-time error CSS1039: Token not allowed after unary operator: '-maincolor'
+(434,24): run-time error CSS1039: Token not allowed after unary operator: '-maincolor'
+ */
+:root {
+    --maincolor: #F29B19
+}
+body {
+    background-color: #F29B19;
+    background: #F29B19 url(/Content/Images/bg-ais.jpg) no-repeat fixed center center;
+    background-size: cover;
+    width: 100%;
+}
+
+.appLogo {
+    background: url(/Content/Images/logo-ais.png) no-repeat center top;
+}
+
+.login-form {
+    background: url(/Content/Images/image-loginform-turuncu.png) no-repeat;
+}
+
+    .login-form input.submit-buton {
+        background-color: gold;
+        color: #404040;
+        font-size: 1.1em;
+    }
+
+        .login-form input.submit-buton:hover, .login-form input.submit-buton:focus {
+            background-color: orange;
+        }
+
+    .login-form input:focus {
+        outline: 2px double #c88736;
+    }
+
+.login-kapca {
+    background: url(/Content/Images/image-loginform-kapca-turuncu.png) no-repeat !important;
+}
+
+.sinav-menu {
+    /*background-image: url(/Content/Images/bg-saydam-gumus.png);*/
+    background-color: #404040;
+    border-radius: 0;
+    text-align: left;
+    margin-bottom: 5px;
+    border-top-right-radius: 10px;
+    margin-left: -8px;
+    margin-right: -9px;
+    /*border: solid black 2px;*/
+}
+
+    .sinav-menu h5 {
+        float: left;
+        text-decoration: none;
+        margin-top: 15px;
+        margin-left: 20px;
+        color: gold;
+    }
+
+    .sinav-menu ul.nav {
+        float: left;
+        margin-top: 1px;
+        margin-left: 2px;
+        margin-bottom: 1px;
+    }
+
+        .sinav-menu ul.nav li {
+            float: left;
+            margin-top: 1px;
+            margin-bottom: 1px;
+            margin-right: 0;
+            font-weight: bold;
+            text-align: center;
+            border: solid #FBC10A !important;
+            border-width: 1px 0 1px 1px !important;
+        }
+
+            .sinav-menu ul.nav li:last-child {
+                border-width: 1px !important;
+            }
+
+            .sinav-menu ul.nav li.active {
+                background-color: white;
+                border: solid #C0991E;
+                border-width: 1px 1px 1px 1px;
+            }
+
+                .sinav-menu ul.nav li.active a {
+                    /*background: white;*/
+                    color: black;
+                }
+
+        .sinav-menu ul.nav a:hover {
+            color: orange;
+        }
+
+        .sinav-menu ul.nav a {
+            font-size: 12px;
+            display: block;
+            width: 162px;
+            text-decoration: none;
+            padding: 7px 3px;
+            background-image: none;
+        }
+
+            .sinav-menu ul.nav a[href="#"] {
+                margin-right: 5px;
+                background: url(/Content/Images/bg-ok-beyaz.png) no-repeat 145px;
+            }
+
+.menu {
+    background-image: url(/Content/Images/bg-saydam-gumus.png);
+    background-color: #404040;
+}
+
+    .menu .uye-bilgi {
+        color: orange;
+    }
+
+    .menu h5, .sinav-menu h5 {
+        color: gold;
+    }
+
+    .menu a, .sinav-menu a {
+        background: transparent url(/Content/Images/bg-kare-sari.png) no-repeat left 4px;
+        color: white;
+    }
+
+        .menu a:hover, .sinav-menu a:hover {
+            color: gold;
+            text-decoration: none;
+        }
+
+    .menu ul.nav a, .sinav-menu ul.nav a {
+        color: white;
+    }
+
+    .menu ul.nav li, .sinav-menu ul.nav li {
+        /*background-image: url(/Content/Images/bg-saydam-gumus.png);*/
+        border: 1px solid #FBC10A;
+        background-color: #181716;
+    }
+
+    .menu ul.nav ul li {
+        background-image: url(/Content/Images/bg-saydam-guvercingrisi.png);
+    }
+
+    .menu ul.nav a:hover,
+    .menu ul.nav a:focus {
+        color: gold;
+        background-color: black;
+    }
+
+    .menu ul.navBullet li {
+        margin: 10px 0;
+    }
+
+.nav-path {
+    background-image: url(/Content/Images/bg-saydam-gumus.png);
+    color: #373737;
+}
+
+    .nav-path a {
+        color: #FFF;
+    }
+
+        .nav-path a:hover {
+            color: gold;
+        }
+
+.cokonemli {
+    background-color: #ebce98;
+    color: #000;
+}
+
+.onemli {
+    background-color: #ebce98;
+    color: #000;
+}
+
+.link-buton {
+    background-color: grey;
+    border-color: silver;
+    color: #FFF;
+}
+
+    .link-buton:hover, .link-buton:focus {
+        background-color: #000;
+    }
+
+.indexsinavlar {
+    /*background-image: url(/Content/Images/bg-saydam-beyaz.png);*/
+    background-color: #ebce98;
+    border-radius: 10px;
+    padding: 10px 10px 3px;
+    border: 2px solid #FFFFFF;
+    margin: 15px 0;
+}
+
+.indexsinav {
+    background-image: url(/Content/Images/bg-saydam-beyaz.png);
+    background-color: #DBDBDB;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+    min-height: 23px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 1em;
+    min-width: 22em;
+    font-style: normal;
+    line-height: normal;
+}
+
+
+div.indexsinav-basvuru-surecinde-basvurulan {
+    min-width: 380px;
+    position: relative;
+}
+
+    div.indexsinav-basvuru-surecinde-basvurulan span.basvuru-yapildi {
+        font-weight: bold;
+    }
+
+    div.indexsinav-basvuru-surecinde-basvurulan span.basvuru-yapildi-img {
+        background-image: url(/Content/Images/icon-checked.png);
+        background-position: right 0;
+        background-repeat: no-repeat;
+        height: 30px;
+        display: block;
+        width: 30px;
+        position: absolute;
+        right: 10px;
+        top: 0;
+    }
+
+div.indexsinav:hover {
+    background: #C2C2C2;
+}
+
+div.indexsinav a {
+    font-size: 14px;
+    color: #3045b3;
+    font-weight: bold;
+}
+
+    div.indexsinav a:hover {
+        text-decoration: none;
+    }
+
+    div.indexsinav a span {
+        color: black;
+        font-weight: normal;
+        padding-left: 6px;
+        font-size: 0.9em;
+    }
+
+div.indexsinav .basvurutamamla, .basvurutamamla {
+    padding: 5px 20px;
+    float: right;
+    background: orange;
+    cursor: pointer;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background: none repeat scroll 0 0 #565454;
+    border: medium solid #dad5c6;
+}
+
+
+
+    div.indexsinav .basvurutamamla a, .basvurutamamla a {
+        display: inline;
+        float: none;
+        color: white;
+    }
+
+
+    div.indexsinav .basvurutamamla:hover, .basvurutamamla:hover {
+        background-color: orange;
+        color: white;
+    }
+
+
+div.indexsinavOnemli {
+    width: 95%;
+    margin-bottom: 15px;
+    background-color: #efefef;
+}
+
+    div.indexsinavOnemli a {
+        margin: 8px auto;
+        display: block;
+        float: left;
+        padding-right: 10px;
+    }
+
+
+.bar-message {
+    background-color: rgba(237, 255, 236, 0.63);
+    /*background-color: #f2f2c6;*/
+    color: rgb(29, 7, 116);
+}
+
+.bar-message-big {
+    background-color: rgba(237, 255, 236, 0.63);
+    color: rgb(29, 7, 116);
+}
+
+.form-con fieldset div label {
+    color: #0E1212;
+}
+
+.k-grid-header {
+    background-color: #7a7a7a;
+    background-image: none;
+}
+
+    .k-grid-header .k-header {
+        background-color: transparent;
+        background-image: none;
+    }
+
+
+        .k-grid-header .k-header, .k-grid-header .k-header a {
+            color: white;
+        }
+
+    .k-grid-header .k-grid-header-wrap table {
+        margin-bottom: 0;
+    }
+
+.sinav-form  #divBasvuruUyeKimlikBilgi {
+    padding-top: 5px;
+}
+
+.sinav-form .but-mernis-guncelle {
+height: 2.4em;
+cursor: pointer;
+}
+
+.k-window .k-window-titlebar {
+    background-image: url("/Content/Images/bg-saydam-gumus.png");
+    background-color: #404040;
+    color: white;
+}
+
+.k-grid .k-state-selected {
+    background-image: url("/Content/Images/bg-saydam-gumus.png");
+    background-color: #404040;
+}
+
+.k-grid .k-grid-pager {
+    background-image: none;
+    background-color: #7A7A7A;
+}
+
+    .k-grid .k-grid-pager .k-label {
+        color: white;
+    }
+
+    .k-grid .k-grid-pager .k-state-selected {
+        border-color: white;
+    }
+
+.k-grid .k-button {
+    background-image: none;
+    /*background-color: #7A7A7A;
+    color: white;
+    border-color: #1a1a1a;*/
+}
+
+
+.form-con .button, .button {
+    /*background-color: #404040;*/
+    background-color: #1d1d1d;
+}
+
+.form-con .buttonsecondary, .buttonsecondary {
+    /*background-color: #404040;*/
+    background-color: #5E6063;
+}
+
+.form-con fieldset legend {
+    border-color: #888888;
+}
+
+.form-con div.submit-line {
+    border-color: #888888;
+}
+
+.form-con .button:hover, .button:hover {
+    background-color: #111111;
+    color: orange;
+}
+
+.bg-saydam ol {
+    list-style: decimal outside;
+}
+
+.bg-saydam ul {
+    list-style: disc outside;
+}
+.wizard-menu div {
+        font-size: 14px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        line-height: 36px;
+        background: black;
+        text-align: center;
+        color: white;
+        border: solid #FBC10A !important;
+        border-width: 0 1px 0 0 !important;
+        border-radius: 2px;
+        float: left;
+    }
+    .wizard {
+        border: solid #FBC10A !important;
+        border-width: 0 1px 1px 1px !important;
+        border-radius: 5px;
+    }
+.edevlet-giris-bilgilendirme {
+    background-color: rgba(242, 155, 25, 0.51);
+    border-radius: 8px !important;
+    border: solid;
+    border-color: var(--maincolor);
+}
+.edevlet-kayit-bilgilendirme {
+    background-color: cornsilk ;
+    border-radius: 8px !important;
+    border: solid;
+    border-color: var(--maincolor);
+}
