@@ -1,1 +1,1 @@
-# Sahte-Login
+  Node JS kullandığımız projede ÖSYM'nin kopya sitesini httrack ile indirip localde çalıştırarak şifre çalma işlemini denedik.şifre çalındıktan sonra girilen bilgileri mail adresine göndererek oltalama işlemini gerçekleştiriyor.İşlem bittikten sonra aynı sayfanın orjinaline gönderip kullanıcıyı uyandırmamak hedeflenmiştir.Casus yazılımdır kullanılması tavsiye edilmez.Test amaçlı yazılmıştır.
